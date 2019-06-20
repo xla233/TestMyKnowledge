@@ -1,0 +1,9 @@
+First step of Mathematical Induction~~~Basis step: We verify that P(1) is true.
+Second step of Mathematical Induction~~~~Inductive step: We show that the conditional statement P(k) -> P(k + 1) is true for all positive integers k.
+Principle of Well-Ordering~~~~Every non-empty subset of N contains the least element. [N is the set of Natural numbers]
+First step of recursively defining functions~~~define f(1)
+Second step of recursively defining functions~~~~Inductive step: For all k define f(k + 1) as a function of f(k), or, more general, as a function of f(1), f(2), … , f(k).
+First step of defining sets&structures~~~Basis step: Define the simplest structure possible.
+Second step of defining sets&structures~~~~~Inductive step: A rule, how to build a bigger structure from smaller ones.
+First step of Structural Induction~~~~Basis step: Prove that the property is true for the simplest structure.
+Second step of Structural Induction~~~Inductive step: Assuming that the property is true for all simpler structures, prove it for a more complex structure.
